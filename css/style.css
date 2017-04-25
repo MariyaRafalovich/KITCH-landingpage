@@ -56,7 +56,7 @@
 		}
 		
 		.logo {
-		width:100px;
+		width:70px;
 		height:88px;
 		padding:0;
 		margin:0;
@@ -64,8 +64,8 @@
 		}
 		
 		.logo img {
-		width:100px;
-		padding:0;
+		width:70px;
+		padding:10px;
 		margin:0;
 		}
 		
@@ -77,7 +77,7 @@
 		line-height:20px;
 		width:200px;
 		padding:15px 0;
-		margin:20px 0 0 0;
+        margin:20px 0 0 0;
 		float:right;
 		outline:none;
 		cursor:pointer;
@@ -105,15 +105,21 @@
 			-ms-transition: All 0.3s ease;
 			transition: All 0.3s ease;
         }    
-
+ 
+        p#titletext{
+        color:white; 
+        background-color: #00a69c;
+        width: 600px;
+        text-align: center;
+        
+        }
      	
 /* box-1 */
         
 
        .firstblock{
         background:url('../images/background2.jpg') no-repeat center;  
-        width:1200px;
-        padding:50px 0 60px 0;
+        padding:50px 0 60px 20px;
         margin:0 auto;
 		position:relative;		
 		text-align:center;
@@ -286,6 +292,137 @@
 			transition: All 0.3s ease;
 		}
 		
+
+/* box-4 */
+
+		#box-4-w {
+		width:100%;
+		padding:0;
+		margin:0;
+		background:#ffffff; 
+		position:relative;
+		}
+		
+		#box-4 {
+		width:1000px;
+		padding:50px 0 70px 0;
+		margin:0 auto;
+		position:relative;		
+		text-align:center;
+        }
+		
+		#box-4 h2 {        	
+		font-family: 'Roboto', sans-serif;
+		font-weight:300;
+		font-style:normal;				
+		text-align:center;
+		text-transform:uppercase;
+		font-size:40px;
+		line-height:50px;
+		padding:10px 0;
+		margin:0 0 20px 0;
+		cursor:default;
+		color:#1a1a1a;
+		}
+		
+		#box-4 h2 span {        	
+		font-weight:700;
+		}
+		
+		#box-4 p {        	
+		font-family: 'Roboto', sans-serif;
+		font-weight:300;
+		font-style:normal;				
+		text-align:center;
+		font-size:16px;
+		line-height:24px;
+		padding:25px 0 15px 0;
+		margin:0;
+		cursor:default;
+		color:#1a1a1a;
+		}
+				
+		.box-4 {
+		width:300px;
+		padding:0;
+		margin:30px 15px 0 15px;
+		float:left;
+		position:relative;		
+		text-align:center;
+		}
+/* top */	
+
+        #icon1{
+         width:100px;
+        }
+		
+
+/* dashed border */
+
+        #border{
+        width:1000px;
+		margin:30px auto;
+		position:relative;		
+		text-align:center;
+		border-top:1px dashed #BBBBBB;    
+		}
+
+
+/* steps_how does it work */
+
+   
+
+    /* steps part */
+    
+   
+#stepstext p{
+    color: #00a69c;
+    font-size: 16px;
+}
+
+.stepwizard-row {
+    display: table-row;
+}
+
+.stepwizard {
+    display: table;     
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.stepwizard-step button[disabled] {
+    opacity: 1 !important;
+    filter: alpha(opacity=100) !important;
+}
+
+.stepwizard-row:before {
+    top: 14px;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 1px;
+    background-color: #00a69c;
+    
+}
+
+.stepwizard-step {    
+    display: table-cell;
+    text-align: center;
+    position: relative;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
 
 /* box-5 */
 
@@ -653,69 +790,23 @@
 		color:#ffffff;
 		}
 	
-/* box-8 */
+/* Seller */
 
-		#box-8-w {
-		width:100%;
-		padding:0;
+		.text-seller {
+		padding:20px;
 		margin:0;
-		position:relative;
-		background:#ffffff;
-		}
-
-		#box-8 {
-		width:1000px;
-		padding:70px 0 45px 0;
-		margin:0 auto;
+		float:left;
 		position:relative;		
 		text-align:center;
 		}
-		
-		#box-8 h2 {        	
-		font-family: 'Roboto Condensed', sans-serif;
-		font-weight:700;	
-		font-style:normal;				
-		text-align:center;
-		text-transform:uppercase;
-		font-size:50px;
-		line-height:60px;
-		padding:5px 0;
-		margin:0 0 30px 0;
-		cursor:default;
-		color:#1a1a1a;
-		}
-		
-		#box-8 h3 a {        	
-		font-family: 'Roboto Condensed', sans-serif;
-		font-weight:400;	
-		font-style:normal;				
-		text-align:center;
-		text-transform:uppercase;
-		font-size:60px;
-		line-height:60px;
-		padding:5px 0;
-		margin:0;
-		cursor:default;
-		color:#00B258;
-		}
-		
-		#box-8 h3 a span {        	
-		font-weight:300;
-		}
-		
-		#box-8 h4 a {        	
-		font-family: 'Roboto', sans-serif;
-		font-weight:400;	
-		font-style:normal;				
-		text-align:center;
-		font-size:20px;
-		line-height:80px;
-		padding:0;
-		margin:0;
-		cursor:default;
-		color:#1a1a1a;
-		}
-		
+
+       .centerize {
+         display: block;
+         margin: 0 auto;
+         text-align: center;
+
+        }
+        
 /* bottom */
 	
 		#bottom-w {
@@ -724,15 +815,6 @@
 		margin:0;
 		background:rgba(255,255,255,0);	
 		position:relative;
-		}
-		
-		#bottom {
-		width:1000px;
-		padding:30px 0 0 0;
-		margin:0 auto;
-		position:relative;		
-		text-align:center; 
-		border-top:1px dashed #BBBBBB;
 		}
 		
 		a.tel2 {          	
